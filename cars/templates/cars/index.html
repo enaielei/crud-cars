@@ -32,7 +32,9 @@
                 </tr>
             {% endfor %}
         </tbody>
+        <tfoot>
+            <tr><td colspan=4><a href="{% url "create" %}">Create</a></td></tr>
+        </tfoot>
     </table>
-    <a href="{% url "create" %}">Create</a>
 </body>
 </html>
